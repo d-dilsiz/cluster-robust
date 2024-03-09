@@ -4,8 +4,11 @@ This repository explains and illustrates a variety of cluster-robust heteroskeda
 
 <img style="float: right;" src="pictures/banner.png" width="350">
 
-## File structure and data overview
+## File structure
 
+This repository consists of 2 folders:
+* code: provides the `R`-code for cluster-robust `HC0-HC4` standard error estimators with examples
+* pictures: resources for readme.md
 
 ## License
 
