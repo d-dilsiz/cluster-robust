@@ -1,0 +1,23 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  Cluster-Robust Heteroskedasticity-Consistent Standard
+  Errors
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Düzgün
+    family-names: Dilsiz
+    email: d.dilsiz@unibas.ch
+    affiliation: University of Basel
+repository-code: 'https://github.com/d-dilsiz/cluster-robust/tree/main'
+url: 'https://d-dilsiz.github.io/cluster-robust/'
+abstract: >-
+  This repository explains and illustrates a variety of
+  cluster-robust heteroskedasticity-consistent standard
+  error estimators
+license: CC-BY-4.0
