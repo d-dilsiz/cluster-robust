@@ -21,26 +21,6 @@ concurrency:
   group: "pages"
   cancel-in-progress: false
 
-# For Latex code proper rendering (from https://github.com/jeffreytse/jekyll-spaceship?tab=readme-ov-file#2-mathjax-usage)
-run-name:
-    src:
-      - https://polyfill.io/v3/polyfill.min.js?features=es6
-      - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-    config:
-      tex:
-        inlineMath:
-          - ['$','$']
-          - ['\(','\)']
-        displayMath:
-          - ['$$','$$']
-          - ['\[','\]']
-      svg:
-        fontCache: 'global'
-    optimize: # optimization on building stage to check and add mathjax scripts
-      enabled: true # value `false` for adding to all pages
-      include: []   # include patterns for math expressions checking (regexp)
-      exclude: []   # exclude patterns for math expressions checking (regexp)
-
 jobs:
   # Build job
   build:
@@ -57,6 +37,8 @@ jobs:
           destination: ./_site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
+      - name: Github Action for LaTeX # For Latex code proper rendering (https://github.com/marketplace/actions/github-action-for-latex)
+        uses: xu-cheng/latex-action@3.1.0
 
   # Deployment job
   deploy:
