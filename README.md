@@ -2,7 +2,7 @@
 
 This repository explains and illustrates a variety of cluster-robust heteroskedasticity-consistent standard error estimators. It was created by <a rel="creator" href="https://twitter.com/DuzgunDilsiz">Düzgün Dilsiz</a> (University of Basel) for teaching purposes. 
 
-<img style="float: right;" src="pictures/banner.png" width="300">
+<img style="float: right;" src="pictures/banner.png" width="350">
 
 ## File structure and data overview
 
