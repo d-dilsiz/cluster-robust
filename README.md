@@ -1,8 +1,11 @@
 # Cluster-Robust  Heteroskedasticity-Consistent Standard Errors
 
-This repository explains and illustrates a variety of cluster-robust heteroskedasticity-consistent standard error estimators.
+This repository explains and illustrates a variety of cluster-robust heteroskedasticity-consistent standard error estimators. It was created by <a rel="creator" href="https://twitter.com/DuzgunDilsiz">Düzgün Dilsiz</a> (University of Basel) for teaching purposes. 
 
 <img src="pictures/banner.png" width="500">
+
+## File structure and data overview
+
 
 ## License
 
