@@ -4,7 +4,7 @@ This repository explains and illustrates a variety of cluster-robust heteroskeda
 
 Heteroskedasticity-Consistent (HC) standard errors (SE) allow different units having different variance of the error term, rather than assuming all units having the same variance of the error term. In addition to this, cluster-robust HC SE allow for correlation within a cluster. In the following the estimated asymptotic variance for the panel data fixed effects estimator is presented for the standard `small sample size correction` (`Stata` and `R`), and the `HC0-HC3` estimators, as computed by the function `vcovHC` (`plm` package) in `R`.
 
-STATA SSS: $$\widehat{Avar}\left[\widehat \beta_{FE}\right]$$ = $$\frac{N}{N-1}$$ $$\frac{NT-1}{NT-K-1}$$ $$\left(\ddot X' \ddot X \right)^{-1}$$ $$\Sigma_{i=1}^{N}{\ddot X_{i}'\widehat{\ddot u_{i}} \widehat{\ddot u_{i}'}\ddot X_{i}}$$ $$\left(\ddot X' \ddot X\right)^{-1}$$
+STATA SSS: $$\widehat{Avar}\left[\widehat \beta_{FE}\right] = \frac{N}{N-1} \frac{NT-1}{NT-K-1} \left(\ddot X' \ddot X \right)^{-1} \Sigma_{i=1}^{N}{\ddot X_{i}'\widehat{\ddot u_{i}} \widehat{\ddot u_{i}'}\ddot X_{i}} \left(\ddot X' \ddot X\right)^{-1}$$
 
 R SSS: $\widehat{Avar}\left[\widehat \beta_{FE}\right]$ = $\frac{N}{N-1}$ $\frac{NT-1}{NT-K}$ $\left(\ddot X' \ddot X \right)^{-1}$ $\Sigma_{i=1}^{N}{\ddot X_{i}'\widehat{\ddot u_{i}} \widehat{\ddot u_{i}'}\ddot X_{i}}$ $\left(\ddot X' \ddot X\right)^{-1}$
 
