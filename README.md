@@ -24,7 +24,11 @@ In the code, you find a small example with crime data from the United States whe
 
 This repository consists of 2 folders:
 * [code](https://github.com/d-dilsiz/cluster-robust/tree/main/code): provides the `R`-code for cluster-robust `HC0-HC3` standard error estimators with examples
-* [pictures](https://github.com/d-dilsiz/cluster-robust/tree/main/pictures): resources for readme.md
+* [pictures](https://github.com/d-dilsiz/cluster-robust/tree/main/pictures): resources for website version
+* [_include](https://github.com/d-dilsiz/cluster-robust/tree/main/pictures): resources for website version
+* [_layouts](https://github.com/d-dilsiz/cluster-robust/tree/main/pictures): resources for website version
+* [_sass](https://github.com/d-dilsiz/cluster-robust/tree/main/pictures): resources for website version
+* [assets/css](https://github.com/d-dilsiz/cluster-robust/tree/main/pictures): resources for website version
 
 ## License
 
