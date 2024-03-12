@@ -20,8 +20,6 @@ where $\tilde{\ddot u_{it}}=\widehat{\ddot u_{i}}(1-\ddot h_{it})^{-\delta_{m}}$
 
 In the code, you find a small example with crime data from the United States where all the estimators are computed and it is shown that the results are identical to when using the provided functions directly.
 
-<img style="float: right;" src="/pictures/banner.png" width="350">
-
 ## File structure
 
 This repository consists of 2 folders:
