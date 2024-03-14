@@ -12,6 +12,6 @@ include:
   - ISSUE_TEMPLATE.md
   - PULL_REQUEST_TEMPLATE.md
   - CHANGELOG.md
-remote_theme: https://github.com/d-dilsiz/minimal/_layouts/default.html
+remote_theme: https://github.com/d-dilsiz/minimal/blob/master/_layouts/default.html
 logo: /pictures/banner2.png
 show_downloads: true
