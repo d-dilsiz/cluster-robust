@@ -13,5 +13,5 @@ include:
   - PULL_REQUEST_TEMPLATE.md
   - CHANGELOG.md
 remote_theme: https://github.com/d-dilsiz/minimal
-logo: /pictures/banner2.png
+logo: /pictures/banner2.png 
 show_downloads: true
