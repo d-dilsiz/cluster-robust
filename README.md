@@ -1,8 +1,8 @@
 # Cluster-Robust Heteroskedasticity-Consistent Standard Errors
 
-This repository explains and illustrates a variety of cluster-robust heteroskedasticity-consistent standard error estimators. It was created by <a rel="creator" href="https://twitter.com/DuzgunDilsiz">Düzgün Dilsiz</a> (University of Basel) for teaching purposes. Note that there is also [a website version](https://d-dilsiz.github.io/cluster-robust/).
+This repository explains and illustrates a variety of Cluster-Robust Heteroskedasticity-Consistent Standard Error estimators. It was created by <a rel="creator" href="https://twitter.com/DuzgunDilsiz">Düzgün Dilsiz</a> (University of Basel) for teaching purposes. Note that there is also [a website version](https://d-dilsiz.github.io/cluster-robust/).
 
-Heteroskedasticity-Consistent (HC) standard errors (SE) allow different units having different variance of the error term, rather than assuming all units having the same variance of the error term. In addition to this, cluster-robust HC SE allow for correlation within a cluster. In the following the estimated asymptotic variance for the panel data fixed effects estimator is presented for the standard `small sample size correction` (`Stata` and `R`), and the `HC0-HC3` estimators, as computed by the function `vcovHC` (`plm` package) in `R`.
+Heteroskedasticity-Consistent (HC) Standard Errors (SE) allow different units having different variance of the error term, rather than assuming all units having the same variance of the error term. In addition to this, cluster-robust HC SE allow for correlation within a cluster. In the following the estimated asymptotic variance for the panel data fixed effects estimator is presented for the standard `small sample size correction` (`Stata` and `R`), and the `HC0-HC3` estimators, as computed by the function `vcovHC` (`plm` package) in `R`.
 
 STATA SSS: $\widehat{Avar}\left[\widehat \beta_{FE}\right]$ = $\frac{N}{N-1}$ $\frac{NT-1}{NT-K-1}$ $\left(\ddot X' \ddot X \right)^{-1}$ $\Sigma_{i=1}^{N}{\ddot X_{i}'\widehat{\ddot u_{i}} \widehat{\ddot u_{i}'}\ddot X_{i}}$ $\left(\ddot X' \ddot X\right)^{-1}$
 
